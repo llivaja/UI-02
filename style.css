@@ -1,0 +1,80 @@
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+h1{
+    border: solid transparent;
+    border-top-width: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin:0px;
+}
+
+p{
+    border: solid transparent;
+    border-top-width: 15px;
+    border-bottom-width: 40px;
+    margin:0px;
+}
+
+#main_frame {
+    background-color: #DADEE0;
+    height: auto;
+    margin: 0px auto;
+    padding: 3px;
+    width: 622px;
+  }
+
+div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    height: auto; 
+    padding: 0px 100px 0px 25px;
+    margin-bottom: 25px;
+}
+
+#yellow{
+    background-image: url("materijal/žuta.jpg");
+}
+
+#pink{
+    background-image: url("materijal/roza.jpg");
+}
+
+#phone{
+    background-image: url("materijal/telefon.jpg");
+    margin-bottom: 0px;
+}
+
+.buttons{
+    max-width: 100%;
+    max-height: auto;
+    border: solid transparent;
+    border-top-width: 0px;
+    border-bottom-width: 10px;
+}
+
+.buttons:nth-of-type(even){
+    border-bottom-width: 25px;
+}
+
+button{
+    background-color: rgba(235, 235, 235, .3);
+    border: none;
+    border-radius: 15px;
+    color: rgba(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 13px;
+    margin-right: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+  }
